@@ -1,0 +1,10 @@
+@relation netflix
+@attribute 'horames' real
+@attribute 'cantidadPagos' real
+@attribute 'region' {'NA', 'CA', 'SA'}
+@attribute 'edad' real
+@attribute 'dispositivo' {TV,TABLET,SMARTPHONE,CONSOLAS, PC}
+@attribute 'class' { no_contrata, contrata}
+@data 
+90, 5, 'SA', 44, TABLET, ? 
+210, 10, 'NA', 44, TABLET, ? 
